@@ -1,4 +1,4 @@
-# Vietnamese LLM Red-Teaming Dataset 🇻🇳 🛡️
+# Vietnamese LLM Red-Teaming Dataset 🇻🇳
 
 This repository contains the dataset supporting the paper: **"A Methodological Framework for Constructing Localized AI Red Teaming Datasets: A Proof-of-Concept in Vietnamese."**
 
