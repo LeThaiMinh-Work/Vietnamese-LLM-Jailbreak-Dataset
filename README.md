@@ -1,14 +1,14 @@
 # Vietnamese LLM Jailbreak Dataset
 
-This repository contains the dataset supporting the paper: **"A Methodological Framework for Constructing Localized AI Red Teaming Datasets: A Proof-of-Concept in Vietnamese."**
+This repository contains the dataset supporting the paper: **"A Methodological Framework for Constructing Localized AI Jailbreak Datasets: A Proof-of-Concept in Vietnamese."**
 
 ## Overview
-Current AI safety alignments are heavily English-centric. To evaluate cross-lingual vulnerabilities in Open-Source Large Language Models (LLMs), this repository provides a localized, structured red-teaming dataset specifically engineered in **Vietnamese**. 
+Current AI safety alignments are heavily English-centric. To evaluate cross-lingual vulnerabilities in Open-Source Large Language Models (LLMs), this repository provides a localized, structured jailbreak dataset specifically engineered in **Vietnamese**. 
 
 The dataset consists of **240 input prompts**, categorized into 8 prohibited domains and utilizing 3 structural templates (1 baseline + 2 jailbreak templates).
 
 ## Dataset Structure
-The dataset is provided in `VN_RedTeaming_Dataset.csv`. It contains the following columns:
+The dataset is provided in `VN_Jailbreak_Dataset.csv`. It contains the following columns:
 - `Prompt_ID`: Unique identifier for each prompt.
 - `Domain`: The prohibited scenario category.
 - `Template_Type`: The structural technique used (*Baseline, Educational_Roleplay, Defensive_Inquiry*).
